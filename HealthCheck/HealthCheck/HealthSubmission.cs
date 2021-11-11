@@ -7,7 +7,7 @@ namespace HealthCheck
     public class HealthSubmission
     {
         [JsonProperty("id")]
-        public string SubmissionId { get; set; }
+        public string Id { get; set; }
 
         [JsonProperty("patientId")]
         public string PatientId { get; set; }
